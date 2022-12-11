@@ -1,1 +1,1 @@
-- Create release-drafter.yml
+- Clean README
