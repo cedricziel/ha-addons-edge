@@ -27,5 +27,5 @@ schema:
   config: str
 slug: otelcol
 url: https://github.com/cedricziel/ha-addon-otelcol
-version: 6971be8
+version: 0b54a7a
 watchdog: http://[HOST]:13133/
