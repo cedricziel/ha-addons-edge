@@ -1,1 +1,1 @@
-- Clean config.yaml
+- Clean README
