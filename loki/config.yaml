@@ -17,5 +17,5 @@ ports_description:
   9096/tcp: gRPC
 slug: loki
 url: https://github.com/cedricziel/ha-addon-grafana-mimir/blob/main/loki
-version: 5c18ad6
+version: 3da282c
 watchdog: http://[HOST]:3100/ready
