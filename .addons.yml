@@ -1,19 +1,19 @@
 ---
 channel: edge
 addons:
-  otelcol:
+  ha-addon-otelcol:
     repository: cedricziel/ha-addon-otelcol
     target: otelcol
-    image: ghcr.io/cedricziel/{arch}-ha-addon-otelcol
-  loki:
+    image: ghcr.io/cedricziel/ha-addon-otelcol/{arch}
+  ha-addon-grafana-loki:
     repository: cedricziel/ha-addon-grafana-loki
     target: loki
-    image: ghcr.io/cedricziel/{arch}-addon-grafana-loki
-  mimir:
+    image: ghcr.io/cedricziel/ha-addon-grafana-loki/{arch}
+  ha-addon-grafana-mimir:
     repository: cedricziel/ha-addon-grafana-mimir
     target: mimir
-    image: ghcr.io/cedricziel/{arch}-addon-grafana-mimir
-  tempo:
+    image: ghcr.io/cedricziel/ha-addon-grafana-mimir/{arch}
+  ha-addon-grafana-tempo:
     repository: cedricziel/ha-addon-grafana-tempo
     target: tempo
-    image: ghcr.io/cedricziel/{arch}-addon-grafana-tempo
+    image: ghcr.io/cedricziel/ha-addon-grafana-tempo/{arch}
