@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 📚 Documentation
+## 🚀 Enhancements
 
-- docs: add link to otelcol-contrib @cedricziel (#71)
+- chore: migrate to homeassistant_config @cedricziel (#72)
