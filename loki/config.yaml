@@ -1,21 +1,20 @@
-apparmor: false
-arch:
-- aarch64
-- amd64
-description: 'Loki: like Prometheus, but for logs.'
-homeassistant_api: true
-image: ghcr.io/cedricziel/{arch}-addon-grafana-loki
-init: false
-map:
-- share:rw
 name: Grafana Loki
+version: 1079a87
+slug: loki
+description: 'Loki: like Prometheus, but for logs.'
+url: https://github.com/cedricziel/ha-addon-grafana-mimir/blob/main/loki
+apparmor: false
 ports:
   3100/tcp: null
   9096/tcp: null
 ports_description:
   3100/tcp: Loki
   9096/tcp: gRPC
-slug: loki
-url: https://github.com/cedricziel/ha-addon-grafana-mimir/blob/main/loki
-version: 1f08e1d
-watchdog: http://[HOST]:3100/ready
+arch:
+- aarch64
+- amd64
+init: false
+map:
+- share:rw
+homeassistant_api: true
+image: ghcr.io/cedricziel/{arch}-addon-grafana-loki
